@@ -1,4 +1,4 @@
-package com.java.Fundamentals.Day1;
+package com.java.Fundamentals;
 
 import java.util.Scanner;
 
@@ -10,9 +10,7 @@ import java.util.Scanner;
  * - Basic Scanner usage
  * - String input
  * - String concatenation
- * 
- * @author Codegnan IT Solutions
- * @version 1.0
+
  */
 public class SimpleGreeting {
     
