@@ -1,4 +1,4 @@
-package com.java.Fundamentals.Day1;
+package com.java.Fundamentals;
 
 import java.util.Scanner;
 
@@ -20,10 +20,6 @@ import java.util.Scanner;
  * - Proper resource management
  * - Clean code structure
  * - User-friendly interface
- * 
- * @author Codegnan IT Solutions
- * @version 1.0
- * @since 2024
  */
 public class PersonalBioApp {
     
