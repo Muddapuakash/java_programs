@@ -12,9 +12,6 @@ import java.util.Scanner;
  * - Decimal arithmetic
  * - Type casting considerations
  * - Special characters in output
- * 
- * @author Codegnan IT Solutions
- * @version 1.0
  */
 public class TemperatureConverter {
     
