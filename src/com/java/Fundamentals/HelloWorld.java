@@ -5,9 +5,6 @@ package com.java.Fundamentals.Day1;
  * 
  * First Java program demonstrating basic structure,
  * console output, and documentation practices.
- * 
- * @author Codegnan IT Solutions
- * @version 1.0
  */
 public class HelloWorld {
     
@@ -31,7 +28,7 @@ public class HelloWorld {
         
         // Footer
         System.out.println("------------------------------------------");
-        System.out.println("Package: com.codegnan");
+        System.out.println("Package: com.java.Fundamentals");
         System.out.println("Version: 1.0");
         System.out.println("==========================================");
     }
