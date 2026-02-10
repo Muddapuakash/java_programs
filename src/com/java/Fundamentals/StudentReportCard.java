@@ -13,9 +13,6 @@ import java.util.Scanner;
  * - Scanner buffer handling
  * - Calculations
  * - Professional report formatting
- * 
- * @author Codegnan IT Solutions
- * @version 1.0
  */
 public class StudentReportCard {
     
