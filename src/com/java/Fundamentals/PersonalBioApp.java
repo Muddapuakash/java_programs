@@ -1,4 +1,4 @@
-package com.java.Fundamentals;
+package com.java.fundamentals;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ import java.util.Scanner;
  * - User-friendly interface
  */
 public class PersonalBioApp {
-    
+
     /**
      * Main method - orchestrates the entire application flow.
      * 
@@ -35,61 +35,61 @@ public class PersonalBioApp {
      * @param args command-line arguments (not used)
      */
     public static void main(String[] args) {
-        
+
         // Create Scanner for keyboard input
         Scanner scanner = new Scanner(System.in);
-        
+
         // Display application header
         displayWelcomeBanner();
-        
+
         // Prompt for user information
         System.out.println("Please provide your information:");
         System.out.println();
-        
+
         // Collect Full Name
         System.out.print("Enter your full name: ");
         String fullName = scanner.nextLine();
-        
+
         // Collect Age with buffer handling
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
-        scanner.nextLine();  // ✅ Critical: consume newline
-        
+        scanner.nextLine(); // ✅ Critical: consume newline
+
         // Collect City
         System.out.print("Enter your city: ");
         String city = scanner.nextLine();
-        
+
         // Collect Qualification
         System.out.print("Enter your highest qualification: ");
         String qualification = scanner.nextLine();
-        
+
         // Collect Profession
         System.out.print("Enter your current profession: ");
         String profession = scanner.nextLine();
-        
+
         // Collect Email
         System.out.print("Enter your email address: ");
         String email = scanner.nextLine();
-        
+
         // Collect Phone
         System.out.print("Enter your phone number: ");
         String phone = scanner.nextLine();
-        
+
         // Collect Hobby
-        System.print("Enter your favorite hobby: ");
+        System.out.print("Enter your favorite hobby: ");
         String hobby = scanner.nextLine();
-        
+
         // Display formatted bio profile
-        displayBioProfile(fullName, age, city, qualification, 
-                         profession, email, phone, hobby);
-        
+        displayBioProfile(fullName, age, city, qualification,
+                profession, email, phone, hobby);
+
         // Display closing message
         displayThankYouMessage();
-        
+
         // Close Scanner to release resources
         scanner.close();
     }
-    
+
     /**
      * Displays welcome banner with application title.
      * Provides professional first impression.
@@ -101,24 +101,24 @@ public class PersonalBioApp {
         System.out.println("=============================================");
         System.out.println();
     }
-    
+
     /**
      * Displays formatted biographical profile.
      * Uses printf for aligned, professional output.
      * 
-     * @param fullName user's complete name
-     * @param age user's age in years
-     * @param city user's city of residence
+     * @param fullName      user's complete name
+     * @param age           user's age in years
+     * @param city          user's city of residence
      * @param qualification user's highest educational qualification
-     * @param profession user's current profession/occupation
-     * @param email user's email address
-     * @param phone user's contact number
-     * @param hobby user's favorite hobby
+     * @param profession    user's current profession/occupation
+     * @param email         user's email address
+     * @param phone         user's contact number
+     * @param hobby         user's favorite hobby
      */
-    private static void displayBioProfile(String fullName, int age, 
-                                         String city, String qualification,
-                                         String profession, String email,
-                                         String phone, String hobby) {
+    private static void displayBioProfile(String fullName, int age,
+            String city, String qualification,
+            String profession, String email,
+            String phone, String hobby) {
         System.out.println();
         System.out.println("=============================================");
         System.out.println("         YOUR BIOGRAPHICAL PROFILE           ");
@@ -133,7 +133,7 @@ public class PersonalBioApp {
         System.out.printf("%-20s : %s%n", "Hobby", hobby);
         System.out.println("=============================================");
     }
-    
+
     /**
      * Displays thank you message and application info.
      * Provides professional closing.
@@ -143,9 +143,5 @@ public class PersonalBioApp {
         System.out.println("Thank you for using Personal Bio Application!");
         System.out.println("Your information has been recorded successfully.");
         System.out.println();
-        System.out.println("---------------------------------------------");
-        System.out.println("Package: com.codegnan");
-        System.out.println("Developed by: Codegnan IT Solutions");
-        System.out.println("=============================================");
     }
 }

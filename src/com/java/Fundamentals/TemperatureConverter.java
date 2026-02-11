@@ -1,4 +1,4 @@
-package com.java.Fundamentals;
+package com.java.fundamentals;
 
 import java.util.Scanner;
 
@@ -14,21 +14,21 @@ import java.util.Scanner;
  * - Special characters in output
  */
 public class TemperatureConverter {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         // Read Celsius temperature
         System.out.print("Enter temperature in Celsius: ");
         double celsius = scanner.nextDouble();
-        
+
         // Convert to Fahrenheit
         // Use 9.0 and 5.0 to ensure double division
         double fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
-        
+
         // Display result with degree symbols
         System.out.printf("%.2f°C = %.2f°F%n", celsius, fahrenheit);
-        
+
         // Close scanner
         scanner.close();
     }
