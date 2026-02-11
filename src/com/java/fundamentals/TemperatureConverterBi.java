@@ -31,4 +31,8 @@ public class TemperatureConverterBi {
     }
 }
 
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 0c8f498 (Added new Java programs and updated fundamentals)
