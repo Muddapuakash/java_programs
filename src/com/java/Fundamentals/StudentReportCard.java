@@ -1,4 +1,4 @@
-package com.java.Fundamentals;
+package com.java.fundamentals;
 
 import java.util.Scanner;
 
@@ -15,32 +15,32 @@ import java.util.Scanner;
  * - Professional report formatting
  */
 public class StudentReportCard {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         // Collect student information
         System.out.print("Enter student name: ");
         String studentName = scanner.nextLine();
-        
+
         System.out.print("Enter roll number: ");
         int rollNumber = scanner.nextInt();
-        scanner.nextLine();  // ✅ Consume newline
-        
+        scanner.nextLine(); // ✅ Consume newline
+
         // Collect marks
         System.out.print("Enter marks in Subject 1: ");
         int subject1 = scanner.nextInt();
-        
+
         System.out.print("Enter marks in Subject 2: ");
         int subject2 = scanner.nextInt();
-        
+
         System.out.print("Enter marks in Subject 3: ");
         int subject3 = scanner.nextInt();
-        
+
         // Calculate total and average
         int total = subject1 + subject2 + subject3;
         double average = total / 3.0;
-        
+
         // Display report card
         System.out.println();
         System.out.println("===== STUDENT REPORT CARD =====");
@@ -52,9 +52,8 @@ public class StudentReportCard {
         System.out.println("-------------------------------");
         System.out.printf("Total: %d%n", total);
         System.out.printf("Average: %.2f%%%n", average);
-        
+
         // Close scanner
         scanner.close();
     }
 }
-

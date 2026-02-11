@@ -1,4 +1,4 @@
-package com.java.Fundamentals;
+package com.java.fundamentals;
 
 import java.util.Scanner;
 
@@ -15,24 +15,24 @@ import java.util.Scanner;
  * - Basic arithmetic
  */
 public class AgeCalculator {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         // Define current year as constant
         final int CURRENT_YEAR = 2024;
-        
+
         // Prompt and read birth year
         System.out.print("Enter your birth year: ");
         int birthYear = scanner.nextInt();
-        
+
         // Calculate age
         int age = CURRENT_YEAR - birthYear;
-        
+
         // Display result
         System.out.printf("You are approximately %d years old in %d.%n",
-                         age, CURRENT_YEAR);
-        
+                age, CURRENT_YEAR);
+
         // Close scanner
         scanner.close();
     }

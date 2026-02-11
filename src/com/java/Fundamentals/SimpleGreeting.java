@@ -1,4 +1,4 @@
-package com.java.Fundamentals;
+package com.java.fundamentals;
 
 import java.util.Scanner;
 
@@ -10,25 +10,25 @@ import java.util.Scanner;
  * - Basic Scanner usage
  * - String input
  * - String concatenation
-
+ * 
  */
 public class SimpleGreeting {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         // Prompt and read first name
         System.out.print("Enter your first name: ");
         String firstName = scanner.nextLine();
-        
+
         // Prompt and read last name
         System.out.print("Enter your last name: ");
         String lastName = scanner.nextLine();
-        
+
         // Display greeting
         System.out.printf("Hello, %s %s! Welcome to Java Programming!%n",
-                         firstName, lastName);
-        
+                firstName, lastName);
+
         // Close scanner
         scanner.close();
     }
