@@ -2,8 +2,10 @@ package com.java.fundamentals;
 
 import java.util.Scanner;
 
-public class TemperatureConverterBi {
-    public static void main(String[] args) {
+public class TemperatureConverterBi 
+{
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("1. Celsius to Fahrenheit");
@@ -31,8 +33,4 @@ public class TemperatureConverterBi {
     }
 }
 
-<<<<<<< HEAD
-}
-=======
 
->>>>>>> 0c8f498 (Added new Java programs and updated fundamentals)

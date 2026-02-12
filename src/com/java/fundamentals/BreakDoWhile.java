@@ -9,7 +9,7 @@ public class BreakDoWhile {
 	            if (i == 3) {
 	            	i++;
 	                //break; 
-	            	continue;
+	            	//continue;
 	            }
 
 	            System.out.println(i);
