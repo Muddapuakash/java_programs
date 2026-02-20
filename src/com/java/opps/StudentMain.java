@@ -5,7 +5,7 @@ public class StudentMain {
     public static void main(String[] args) {
 
      
-        Student s1 = Student.createStudent("Akash", 22);
+        Student s1 = Student.createStudent("Akash", -5);
 
         if (s1 != null) {
             s1.displayStudentDetails();
@@ -19,7 +19,7 @@ public class StudentMain {
         System.out.println(" ");
 
         //using method
-        Student s2 = Student.createStudent("Ramu", 87);
+        Student s2 = Student.createStudent("Ramu", 20);
 
         if (s2 != null) {
             s2.displayStudentDetails();
