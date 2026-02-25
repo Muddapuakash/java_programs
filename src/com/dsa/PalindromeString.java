@@ -1,4 +1,4 @@
-package com.codegnan;
+package com.dsa;
 
 public class PalindromeString {
 
