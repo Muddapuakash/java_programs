@@ -8,8 +8,8 @@ public class BankAccount {
 		
 		BankAccount b1=new BankAccount();
 		b1.accountHolderName="Akash";
-		b1.accountNumber=1234567;
-		b1.balance=27000.00;
+		b1.setAccountNumber(1234567);
+		b1.setBalance(27000.00);
 		
 		BankAccount b2= new BankAccount();
 
@@ -27,11 +27,23 @@ public class BankAccount {
 	
 	public BankAccount(int accountNumber, int balance, String accountHolderName) {
 		this.accountHolderName=accountHolderName;
-		this.accountNumber=accountNumber;
-		this.balance=balance;
+		this.setAccountNumber(accountNumber);
+		this.setBalance(balance);
 		
 		
 		
+	}
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
 	}
 	
 	
