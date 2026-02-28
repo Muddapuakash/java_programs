@@ -12,7 +12,7 @@ public class BankAccountMain {
 			System.out.println("error: "+a.getMessage());
 		}
 		try {
-			account.withdraw(2000);
+			account.withdraw(9000);
 			System.out.println("withdraw Rs. "+account.getBalance());
 		}catch(InSufficientBalanceException a) {
 			System.out.println("ERROR: "+a.getMessage());
